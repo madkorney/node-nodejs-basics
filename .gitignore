@@ -1,2 +1,4 @@
 support/
 src/zip/files/
+src/fs/files/
+src/fs/files-copy/
