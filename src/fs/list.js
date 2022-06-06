@@ -21,3 +21,8 @@ export const list = async () => {
   }
 
 };
+
+
+(async () => {
+  await list();
+})();

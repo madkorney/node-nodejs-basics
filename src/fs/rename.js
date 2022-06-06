@@ -24,3 +24,6 @@ export const rename = async () => {
 
 };
 
+(async () => {
+  await rename();
+})();

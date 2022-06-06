@@ -19,5 +19,8 @@ export const read = async () => {
 
 };
 
+(async () => {
+  await read();
+})();
 
 

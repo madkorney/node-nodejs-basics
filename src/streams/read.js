@@ -25,3 +25,7 @@ export const read = async () => {
     console.error(`Error: ${error.message}`);
   }
 };
+
+(async () => {
+  await read();
+})();

@@ -41,3 +41,7 @@ export const transform = async () => {
   }
 
 };
+
+(async () => {
+  await transform();
+})();

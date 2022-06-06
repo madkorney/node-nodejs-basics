@@ -34,3 +34,7 @@ export const write = async () => {
   }
 
 };
+
+(async () => {
+  await write();
+})();

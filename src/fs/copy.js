@@ -20,6 +20,9 @@ export const copy = async () => {
 
 }
 
+(async () => {
+  await copy();
+})();
 
 
 

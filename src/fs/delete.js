@@ -10,10 +10,14 @@ export const remove = async () => {
   const fullSourcePath = path.join(__dirname, pathToFilesFolder, fileToRemove);
 
   try {
-    await fs.unlink(fullSourcePath);
+    await fs.unlink(fullSourcePath); // rm !
   }
   catch (err) {
     throw new Error('FS operation failed');
   }
 
 };
+
+(async () => {
+  await remove();
+})();

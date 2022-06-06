@@ -24,3 +24,7 @@ export const calculateHash = async () => {
   const hashHex = hash.digest('hex');
   return hashHex;
 };
+
+(async () => {
+  await calculateHash();
+})();
