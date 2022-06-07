@@ -13,6 +13,7 @@ if (random > 0.5) {
     unknownObject = require('./files/b.json');
 }
 
+
 console.log(`Release ${release()}`);
 console.log(`Version ${version()}`);
 console.log(`Path segment separator is "${path.sep}"`);
